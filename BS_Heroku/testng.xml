@@ -25,7 +25,7 @@
         <parameter name="os" value="OS X"/>
         <parameter name="osVersion" value="Ventura"/>
         <parameter name="browserName" value="Safari"/>
-        <parameter name="browserVersion" value="17.0"/>
+        <parameter name="browserVersion" value="16.5"/>
         <classes>
             <class name="AutomateHeroku"/>
         </classes>
