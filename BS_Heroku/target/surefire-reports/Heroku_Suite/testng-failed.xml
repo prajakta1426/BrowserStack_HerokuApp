@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Heroku_Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Safari macOS Test(failed)" verbose="0">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Ventura"/>
+    <parameter name="browserVersion" value="17.0"/>
+    <parameter name="browserName" value="Safari"/>
+    <classes>
+      <class name="AutomateHeroku">
+        <methods>
+          <include name="KeyPressesValidation"/>
+          <include name="DragAndDropValidation"/>
+          <include name="AddAndRemoveElementsValidation"/>
+          <include name="DropdownValidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AutomateHeroku -->
+    </classes>
+  </test> <!-- Safari macOS Test(failed) -->
+</suite> <!-- Failed suite [Heroku_Suite] -->
